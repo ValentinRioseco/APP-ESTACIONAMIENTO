@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jquery.datetimepicker.min.css">
+    <title>Document</title>
+</head>
+<body>
+   
+   <script src="jquery.js"></script>
+   <script src="jquery.datetimepicker.full.min.js"></script>
+
+   <input id="SelectorHyDEntrada">
+   <input id="SelectorHyDSalida">
+
+   <script>
+         $("#SelectorHyDEntrada").datetimepicker({
+              format: 'd-m-Y H:i',
+              fomatTime: 'H:i:i',
+              formatData: 'm-d',
+              step: 30
+         });   
+         $("#SelectorHyDSalida").datetimepicker({
+              format: 'd-m-Y H:i',
+              fomatTime: 'H:i:i',
+              formatData: 'm-d',
+              step: 30
+         });   
+
+   </script>
+</body>
+</html>
