@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+
+
+.casilla1{
+    width: 80px;
+    height: 80px;
+    background-color: forestgreen;
+    margin-top: 8px;
+    display: inline;
+    
+    
+}
+
+
+.casilla2{
+    width: 80px;
+    height: 80px;
+    background-color: forestgreen;
+    margin-top: 8px;
+    margin-left: 300px;
+}
+
+.casilla3{
+        width: 80px;
+        height: 80px;
+        background-color: forestgreen;
+        margin-top: 8px;
+        margin-left: 300px;
+    }
+
+.casilla4{
+    width: 80px;
+    height: 80px;
+    background-color: forestgreen;
+    margin-top: 8px;
+    margin-left: 300px;
+}

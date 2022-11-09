@@ -5,30 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="jquery.datetimepicker.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="estacionamiento.css"
+    
 </head>
 <body>
-   
-   <script src="jquery.js"></script>
-   <script src="jquery.datetimepicker.full.min.js"></script>
+    <h1>Estacionamiento</h1>
+    <h2>Selecciona tu horario de entrada y salida</h2>
+    <script src="jquery.js"></script>
+    <script src="jquery.datetimepicker.full.min.js"></script>
 
-   <input id="SelectorHyDEntrada">
-   <input id="SelectorHyDSalida">
+    <input id="SelectorHyDEntrada">
+    <input id="SelectorHyDSalida">
 
-   <script>
-         $("#SelectorHyDEntrada").datetimepicker({
-              format: 'd-m-Y H:i',
-              fomatTime: 'H:i:i',
-              formatData: 'm-d',
-              step: 30
-         });   
-         $("#SelectorHyDSalida").datetimepicker({
-              format: 'd-m-Y H:i',
-              fomatTime: 'H:i:i',
-              formatData: 'm-d',
-              step: 30
-         });   
+    <script>
+        $("#SelectorHyDEntrada").datetimepicker({
+            format: 'd-m-Y H:i',
+            fomatTime: 'H:i:i',
+            formatData: 'm-d',
+            step: 30
+        });   
+        $("#SelectorHyDSalida").datetimepicker({
+            format: 'd-m-Y H:i',
+            fomatTime: 'H:i:i',
+            formatData: 'm-d',
+            step: 30
+        });   
 
-   </script>
+    </script>  
+
+
+<div class="div-padre"> 
+<div>
+    <div class="casilla1"></div>
+    <div class="casilla1"></div>
+    <div class="casilla1"></div>
+</div>
+<div> 
+    <div class="casilla2"></div>
+    <div class="casilla2"></div>
+    <div class="casilla2"></div>
+</div> 
+<div> 
+    <div class="casilla3"></div>
+    <div class="casilla3"></div>
+    <div class="casilla3"></div>
+</div>
+<div> 
+    <div class="casilla4"></div>
+    <div class="casilla4"></div>
+    <div class="casilla4"></div>
+</div>
+</div>  
+
 </body>
 </html>
